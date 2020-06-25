@@ -9,6 +9,9 @@
 ```
 ### Querys
 
+##### url
+http://localhost:5001/graphiql
+
 Query to return a pokemon
 ```graphql
 {
