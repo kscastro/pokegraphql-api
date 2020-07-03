@@ -32,4 +32,8 @@ Query to return a pokemon list
 }
 ```
 ### Tests 
-Under construction
+Run Tests
+```
+npm test or yarn test
+
+```

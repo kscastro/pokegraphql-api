@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test-server": "mocha 'schema/**/*.spec.js'",
+    "test-integration": "mocha 'schema/**/*.integration.spec.js'",
+    "test": "npm run test-server && npm run test-integration"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +20,12 @@
     "lodash.get": "^4.4.2",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "babel-register": "^6.22.0",
+    "chai": "3.5.0",
+    "mocha": "3.2.0",
+    "sinon": "1.17.7",
+    "sinon-chai": "2.8.0"
   }
 }
