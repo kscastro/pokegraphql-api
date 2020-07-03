@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "index.js",
     "test-server": "mocha 'schema/**/*.spec.js'",
     "test-integration": "mocha 'schema/**/*.integration.spec.js'",
     "test": "npm run test-server && npm run test-integration"
